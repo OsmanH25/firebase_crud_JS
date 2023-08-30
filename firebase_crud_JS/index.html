@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Para que funcione en todos los navegadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase CRUD "Investigacion"</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-dark">
+    
+    <div class="container p-4">
+        <div class="row">
+
+            <div class="col-md-6">
+            
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="h4">Añadir Tarea</h1>
+                        <form id="formulario-tareas"> <!-- Formulario para agregar tareas, "task-form" es el indicador del ID-->
+
+
+                            <label for="titulo">Titulo</label> <!-- Label para agregar el titulo de la tarea, "tarea-titulo" es el indicador del ID-->
+                            <input class="form-control mb-3" type="text" placeholder="Titulo Tarea" id="tarea-titulo"> <!-- Input para agregar el titulo de la tarea, "tarea-titulo" es el indicador del ID-->
+                        
+                            <label for="descripcion">Descripcion:</label> <!-- Label para agregar la descripcion de la tarea-->
+                            <textarea class="form-control mb-3" id="tarea-descripcion" rows"3" placeholder="Descripcion de tarea"></textarea> 
+                            <!-- Con lo anterior vamos a poder agregar "datos"-->
+                            <button class="btn btn-primary" id="btn-tarea-guardar">Guardar</button>
+                    
+                        </form> 
+                    </div>
+            
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="contenedor-tareas"></div> <!-- Esto es para poder listar las tareas y despues rellenarlas-->
+            </div>
+
+        </div>
+    </div>
+
+  
+
+  
+
+    
+
+    <script type="module" src="./index.js"></script> <!-- Se llama al archivo de JS para su conexion-->
+
+</body>
+</html>
+
+<!-- Se crean los "ID" para despues poder definirlos y darles funcionalidades en los archivos de JS-->
+

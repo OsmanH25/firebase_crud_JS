@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 5;
+    padding: 5;
+}
+
+/* Encabezado */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #20c7879b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario */
+form {
+    margin-top: 30px; 
+}
+
+/* Etiquetas de formulario */
+label {
+    font-weight: bold; 
+    color: #333;
+}
+
+/* Campos de entrada */
+input[type="text"],
+textarea {
+    width: 125; 
+    padding: 12px; 
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+}
+
+/* Botones */
+.btn-custom {
+    background-color: #00b894; /* Cambio de color a verde */
+    border-color: #00997e;
+    color: #fff;
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #00997e; /* Cambio de color a un tono más oscuro de verde */
+}
+
+/* Listado de tareas */
+#contenedor-tareas {
+    margin-top: 55px;
+    width: auto;
+}
+
+/* Tarjeta de tarea */
+.tarea-card {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
