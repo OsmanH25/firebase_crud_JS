@@ -1,6 +1,6 @@
 //Este es el encargado de interactuar con la base de datos "firebase" 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"; // Importamos la funcion initializeApp desde la libreria firebase-app.js
+import { initializeApp } from "https://www.gstatic.com/firebasejs/ /firebase-app.js"; // Importamos la funcion initializeApp desde la libreria firebase-app.js
 import { getFirestore, 
     collection, 
     addDoc, 
@@ -10,7 +10,7 @@ import { getFirestore,
     doc,
     getDoc,
     updateDoc
-} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js" // Importamos firestore, con esto podemos interactuar con la base de datos
+} from "https://www.gstatic.com/firebasejs/ /firebase-firestore.js" // Importamos firestore, con esto podemos interactuar con la base de datos
 //collection es una funcion que nos permite crear una coleccion en la base de datos y getFirestore es una funcion que nos permite obtener la base de datos
 // addDoc es una funcion que nos permite agregar un documento a la base de datos
 // TODO: Add SDKs for Firebase products that you want to use
@@ -18,12 +18,12 @@ import { getFirestore,
     
 // Your web app's Firebase configuration
 const firebaseConfig = {
- apiKey: "AIzaSyA-9yE0ubTYwvQuw2an-KgR9q90wd2UCyc",
- authDomain: "fir-crud-js-fd2c9.firebaseapp.com",
- projectId: "fir-crud-js-fd2c9",
- storageBucket: "fir-crud-js-fd2c9.appspot.com",
- messagingSenderId: "962411193252",
- appId: "1:962411193252:web:99f84e49bcbb646f5cd731"
+ apiKey: "",
+ authDomain: "fir-crud-js-",
+ projectId: "fir-crud-js-",
+ storageBucket: "",
+ messagingSenderId: ",
+ appId: ""
 };
     
 // Initialize Firebase
